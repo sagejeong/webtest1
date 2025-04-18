@@ -1,0 +1,54 @@
+<html>
+<title>Login.page</title>
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=UTF-8" />
+<style>
+table {
+border-collapse: collapse;
+width: 100%; 
+}
+th, td{
+border = 1px solid black;
+padding: 20px;
+}
+</style>
+</head>
+<body>
+<FORM action="form3.php">
+
+<table border = '1'>
+<h3>기본정보 입력</h3>
+
+<tr>
+<td colspan="1">아이디</td><td colspan="2"><INPUT type="text" name="userid"><INPUT type="submit" value="중복확인"></td>
+</tr>
+<tr>
+<td>비밀번호</td><td colspan="2"><INPUT type ="password" name="pass"></td>
+</tr>
+<tr><td>비밀번호 확인</td><td colspan="2"><INPUT type ="password" name="passch"</td>
+</tr>
+</table>
+
+<table border = '1'>
+<h3>개인정보 입력</h3>
+<tr>
+<td>이름</td><td colspan="2"><INPUT type ="name" name="kname"></td>
+</tr>
+
+<tr>
+<td>이메일</td><td colspan="2"><INPUT type = "email" name"kemail"><INPUT type="submit" value="이메일인증">
+<br><input type='checkbox'>이메일 수신 동의</td>
+</tr>
+<tr>
+<td>휴대전화번호</td><td colspan="2"><INPUT type="phone" name="number"</td>
+<br><input type='checkbox'>SMS 수신 동의
+
+</tr>
+
+
+
+
+</FORM>
+</body>
+</html>
